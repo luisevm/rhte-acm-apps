@@ -6,7 +6,7 @@ metadata:
 placementRef:
   name: namespace-policy-placement
   apiGroup: apps.open-cluster-management.io
-  kind: PlacementRule
+  kind: Placement
 subjects:
   - name: namespace-policy
     apiGroup: policy.open-cluster-management.io
